@@ -1,3 +1,4 @@
+import { RightArrowIcon } from '@/assets/index';
 import { Button } from '@/components/ui/Button/button';
 
 import {
@@ -13,6 +14,7 @@ function App() {
       <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100 p-40'>
         <Button variant='default' name='button'>
           Click me
+          <RightArrowIcon />
         </Button>
         <Accordion type='single' collapsible className='w-full'>
           <AccordionItem value='item-1'>
